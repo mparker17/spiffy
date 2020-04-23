@@ -15,9 +15,10 @@ Gem::Specification.new do |s|
     "templates/default.haml",
     "templates/default.css"
   ]
-  s.homepage    = "http://rubygems.org/gems/hola"
-  s.license     = "BSD-3-Clause"
+  s.homepage    = "http://rubygems.org/gems/spiffy"
+  s.licenses    = ["BSD-3-Clause"]
   s.executables = ["spiffy"]
+  s.metadata    = { "source_code_uri" => "https://github.com/leighmcculloch/spiffy" }
   s.add_runtime_dependency("github-markdown", "~> 0.6", ">= 0.6.8")
   s.add_runtime_dependency("github-markup", "~> 1.3", ">= 1.3.3")
   s.add_runtime_dependency("pdfkit", "~> 0.6", ">= 0.6.2")
